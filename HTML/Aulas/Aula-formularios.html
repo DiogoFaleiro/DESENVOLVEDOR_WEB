@@ -1,16 +1,81 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Formulários</title>
 </head>
 <body>
     
-    <form>
+    <form autocomplete="off">
 
-        <label for=""></label>
+        <label for="txtNomeCompleto">Nome Completo:</label>
+        <input type="text" id="txtNomeCompleto">
+
+        <br><br>
+
+        <label for="txtphone">Telefone:</label>
+        <input type="tel" id="txtphone">
+
+        <br><br>
+
+        <label for="txtemail">E-mail:</label>
+        <input type="email" id="txtemail">
+
+        <br><br>
+
+        <input type="checkbox" id="opcHTML"><label for="opcHTML">HTML</label>   
+        <input type="checkbox" id="opcCSS"><label for="opcCSS">CSS</label>
+        <input type="checkbox" id="opcJAVASCRIPT"><label for="opcJAVASCRIPT">JAVASCRIPT</label>
+
+        <br><br>
+
+        <input type="radio" name="opcTipoTrabalho" id="opcCLT"><label for="opcCLT">CLT</label>
+        <input type="radio" name="opcTipoTrabalho" id="opcFreeLancer"><label for="opcFreeLancer">FreeLancer</label>
+        <input type="radio" name="opcTipoTrabalho" id="opcAgencia"><label for="opcAgencia">Agência Web</label>
+
+        <br><br>
+
+        <label for="txtSenha">Senha:</label>
+        <input type="password" id="txtSenha">
+
+        <br><br>
+        
+        <label for="txtData">Data:</label>
+        <input type="date" id="txtData">
+
+        <br><br>
+
+        <label for="txtCor">Cor:</label>
+        <input type="Color" id="txtCor">
+
+        <br><br>
+
+        <label for="txthora">Hora:</label>
+        <input type="time" id="txthora">
+
+        <br><br>
+
+        <label for="txtfile">Escolha uma foto</label>
+        <input type="file" id="txtfile">
+
+        <br><br>
+
+        <label for="">Volume:</label>
+        <input type="range" step="10">
+
+        <br><br>
+
+        <label for="txtMensagem">Mensagem:</label>
+        <textarea name="txtMensagem" cols="30" rows="10"></textarea>
+
+        <br><br>
+
+        
+        <button type="submit">Enviar Dados</button>
+        <button type="reset">Limpar</button>
+
 
     </form>
 
